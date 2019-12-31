@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/mainbg"
+    android:weightSum="7"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_margin="32dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:onClick="btnClick"
+                android:id="@+id/bgp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textColor="#f8f8f8"
+                android:fontFamily="@font/pyidaungsu"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boy Selections"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/bgp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="32dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:onClick="btnClick"
+                android:id="@+id/ggp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textColor="#f8f8f8"
+                android:fontFamily="@font/pyidaungsu"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Girl Selections"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/ggp"/>
+        </RelativeLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+   <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:id="@+id/qr_loading"
+        android:visibility="gone"/>
+    <Button
+        android:textSize="20sp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_gravity="bottom"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:textColor="#f8f8f8"
+        android:onClick="btnClick"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/pyidaungsu"
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR Code"
+        />
+    </LinearLayout>
+</LinearLayout>

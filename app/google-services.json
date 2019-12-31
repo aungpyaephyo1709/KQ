@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "127391765143",
+    "firebase_url": "https://ucsp-vote-2020.firebaseio.com",
+    "project_id": "ucsp-vote-2020",
+    "storage_bucket": "ucsp-vote-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127391765143:android:eb1dd08f3d85ad8dd5cfd2",
+        "android_client_info": {
+          "package_name": "com.app.aungpyaephyo.ucs_patheinvoting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127391765143-h1fcq7257l8j4hv4mdqd0g6se0s7bneo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnCfBC_pX4iHIGqxMLOO6W5IZ-o91m754"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127391765143-h1fcq7257l8j4hv4mdqd0g6se0s7bneo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
